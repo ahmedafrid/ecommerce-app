@@ -105,7 +105,6 @@ export default function Order( {CartData} ) {
                       Proceed
                     </button>
                   </div>
-                  <h2>{JSON.stringify(orders)}</h2>
                 </form>
               </div>
 
