@@ -62,7 +62,7 @@ function App() {
     const handleWishlist = (item) => {
       if(wishlist.indexOf(item) !== -1) return;
       setWishlist( [...wishlist, item]);
-      console.log("clicked wish");
+      // console.log("clicked wishlist");
     }
 
     const handleDelete = (id) => {
