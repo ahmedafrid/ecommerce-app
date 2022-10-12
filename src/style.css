@@ -1,0 +1,16 @@
+.card img {
+    padding: 20%;
+    height: 400px;
+}
+
+.cart img { 
+    height: 150px;
+}
+
+@media screen and (max-width: 500px) {
+    
+    .cart img {
+        width: 50px;
+        object-fit: cover !important;
+    }
+}
